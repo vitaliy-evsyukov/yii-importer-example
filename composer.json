@@ -1,0 +1,8 @@
+{
+    "require" : {
+        "yiisoft/yii"                     : "1.1.16",
+        "drmabuse/yii-bootstrap-3-module" : "dev-master",
+        "asgaroth/xupload"                : "dev-master",
+        "phpoffice/phpexcel"              : "dev-master"
+    }
+}

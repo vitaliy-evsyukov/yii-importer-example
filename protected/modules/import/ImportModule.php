@@ -19,5 +19,6 @@ class ImportModule extends \CWebModule
     {
         parent::init();
         $this->setImport(['xupload.XUpload', 'xupload.models.XUploadForm']);
+        $this->layout = 'main';
     }
 }

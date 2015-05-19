@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @var CClientScript $cs
  */
@@ -12,4 +11,7 @@ $path = $am->publish(
 
 $cs->registerCssFile($path . '/css/style.css');
 $cs->registerScriptFile($path . '/js/UploadHandler.js');
+$this->beginContent('//layouts/main');
+echo $content;
+$this->endContent('//layouts/main');
 ?>

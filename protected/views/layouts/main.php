@@ -26,19 +26,12 @@
         "$('[data-toggle=\"tooltip\"]').tooltip();$('[data-toggle=\"popover\"]').tooltip()",
         CClientScript::POS_READY
     );
-    $headPart = $this->getModule()->layoutPath . DIRECTORY_SEPARATOR . 'scripts.php';
-    if (is_file($headPart) && is_readable($headPart)) {
-        $this->renderFile($headPart);
-        //$this->endContent('//layouts/scripts.php');
-    }
     ?>
 </head>
 <body>
 
 <div id="wrap">
-    <div class="container">
-        <?php echo $content ?>
-    </div>
+    <div class="container"><?php echo $content; ?></div>
 </div>
 <div class="clearfix"></div>
 </body>

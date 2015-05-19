@@ -2,3 +2,5 @@ protected/runtime
 protected/upload
 /assets
 .idea
+/vendor
+/bower_components

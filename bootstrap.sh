@@ -21,5 +21,6 @@ chown $USER:www-data -R "`pwd`"
 chmod 775 -R "`pwd`/protected/runtime"
 chmod 775 -R "`pwd`/protected/upload"
 chmod 775 -R "`pwd`/assets"
+chmod 775 -R "`pwd`/protected/data"
 php composer.phar install
 bower install

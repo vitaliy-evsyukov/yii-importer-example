@@ -1,5 +1,17 @@
 #!/bin/bash
 
+if [ ! -d "`pwd`/protected/runtime" ]; then
+    mkdir "`pwd`/protected/runtime";
+fi
+
+if [ ! -d "`pwd`/assets" ]; then
+    mkdir "`pwd`/assets";
+fi
+
+if [ ! -d "`pwd`/protected/upload" ]; then
+    mkdir "`pwd`/protected/upload";
+fi
+
 rm -Rf "`pwd`/protected/runtime"/*
 rm -Rf "`pwd`/protected/upload"/*
 rm -Rf "`pwd`/assets"/*
